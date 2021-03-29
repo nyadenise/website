@@ -1,15 +1,32 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Denise's website</title>
 		<style>
 			body, html{
 				margin: 0;
 			}
-			header {
+			header, section{
 				font-family: Arial, Helvetica, sans-serif;
-				margin-top: 10px;
-				margin-left: 10px;
+				padding-top: 20px;
+				padding-left: 20px;
+			}
+			h1, p {
+				margin: 0;
+			}
+			#warning{
+				margin-top: 20px;
+				font-size: 20px;
+				background-color: #eebbbb;
+				padding: 10px 20px;
+				display: flex;
+				align-items: center;
+			}
+			.underline{
+				font-size: inherit;
+				font-family: inherit;
+				text-decoration: underline;
 			}
 		</style>
 	</head>
@@ -17,5 +34,21 @@
 		<header>
 			<h1>Denise's website</h1>	
 		</header>
+		<section id="warning">
+			<p>Yes, website elitists, I know that you're not supposed to have your css in your head tag, etc etc</p>
+		</section>
+		<section id="main">
+			<p>hii friends im denise</p>
+			<br>		
+			<p>find me on <font class="underline">all</font> the socials</p>
+			<ul>
+				<li><a href="about:blank" target="_blank"><del>Twitter</del></a></li>
+				<li>Discord: denise#9493</li>
+				<li><a href="https://github.com/nyadenise" target="_blank">Github</a></li>
+				<li><a href="https://3644859.xyz">3644859.xyz</a></li>
+			</ul>
+			<p></p>
+			<br>
+		</section>
 	</body>
 </html>
