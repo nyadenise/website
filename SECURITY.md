@@ -3,6 +3,8 @@
 ## Supported Versions
 
 Latest version on main: ✅
+
+
 Any other version: ❌
 
 ## Reporting a Vulnerability
